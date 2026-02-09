@@ -16,7 +16,7 @@
             }
         </style>
         <div id="car-container">
-            <img src="https://tenor.com/j4TCok6x35D.gif" alt="Car Animation">
+            <img src="https://cdn.jsdelivr.net/gh/parth6020/carsgif@main/cars-cars2.gif" alt="Car Animation">
         </div>
     `;
 
@@ -43,3 +43,4 @@
 
     customElements.define("com-yourname-car-vanish", CarVanishWidget);
 })();
+
