@@ -2,18 +2,9 @@
     let template = document.createElement("template");
     template.innerHTML = `
         <style>
-            :host {
-                display: block;
-            }
-            #car-container {
-                width: 100%;
-                height: 100%;
-                transition: opacity 0.5s ease; /* Smooth fade out */
-            }
-            img {
-                width: 100%;
-                height: auto;
-            }
+            :host { display: block; width: 100%; height: 100%; }
+            #car-container { width: 100%; height: 100%; }
+            img { width: 100%; height: auto; }
         </style>
         <div id="car-container">
             <img src="https://cdn.jsdelivr.net/gh/parth6020/carsgif@main/workingif.gif" alt="Car Animation">
@@ -26,22 +17,8 @@
             this._shadowRoot = this.attachShadow({ mode: "open" });
             this._shadowRoot.appendChild(template.content.cloneNode(true));
         }
-
-        // This runs automatically when the story loads
-        connectedCallback() {
-            const container = this._shadowRoot.getElementById("car-container");
-            
-            // SET THE TIME HERE: 5000 = 5 seconds
-            setTimeout(() => {
-                container.style.opacity = "0"; // Fade out
-                setTimeout(() => {
-                    container.style.display = "none"; // Completely vanish
-                }, 500); 
-            }, 5000); 
-        }
+        // connectedCallback is empty so the car stays visible
+        connectedCallback() {}
     }
-
     customElements.define("com-yourname-car-vanish", CarVanishWidget);
 })();
-
-
