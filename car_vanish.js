@@ -20,5 +20,6 @@
         // connectedCallback is empty so the car stays visible
         connectedCallback() {}
     }
-    customElements.define("com-yourname-car-vanish", CarVanishWidget);
+    customElements.define("com-parth-car-finish", CarVanishWidget);
 })();
+
