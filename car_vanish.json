@@ -1,26 +1,13 @@
 {
     "id": "com.yourname.car.vanish",
-    "version": "3.0.0",
-    "name": "Auto Vanish Car",
-    "description": "A car GIF that disappears after 5 seconds",
-    "newInstancePrefix": "VanishCar",
-    "vendor": "YourName",
-    "eula": "",
-    "license": "MIT",
+    "version": "10.0.0",
+    "name": "Working Car Final",
     "webcomponents": [
         {
             "kind": "main",
             "tag": "com-yourname-car-vanish",
-            "url": "https://cdn.jsdelivr.net/gh/parth6020/carsgif@main/car_vanish.js",
-            "integrity": "",
+            "url": "https://cdn.jsdelivr.net/gh/parth6020/carsgif1@main/car_vanish.js?v=10",
             "ignoreIntegrity": true
         }
-    ],
-    "properties": {},
-    "methods": {},
-    "events": {}
+    ]
 }
-
-
-
-
