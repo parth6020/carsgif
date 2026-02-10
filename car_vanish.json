@@ -1,13 +1,22 @@
 {
-    "id": "com.yourname.car.vanish",
-    "version": "10.0.0",
-    "name": "Working Car Final",
+    "id": "com.parth.car.final",
+    "version": "11.0.0",
+    "name": "Auto Car Final",
+    "description": "Fixed missing properties error",
+    "newInstancePrefix": "CarWidget",
+    "vendor": "Parth",
+    "eula": "",
+    "license": "MIT",
     "webcomponents": [
         {
             "kind": "main",
-            "tag": "com-yourname-car-vanish",
-            "url": "https://cdn.jsdelivr.net/gh/parth6020/carsgif1@main/car_vanish.js?v=10",
+            "tag": "com-parth-car-final",
+            "url": "https://cdn.jsdelivr.net/gh/parth6020/carsgif@main/car_vanish.js?v=11",
+            "integrity": "",
             "ignoreIntegrity": true
         }
-    ]
+    ],
+    "properties": {},
+    "methods": {},
+    "events": {}
 }
